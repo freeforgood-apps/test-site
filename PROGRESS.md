@@ -21,11 +21,12 @@
 ## Where things stand
 
 - **Version 1.0.0:** built, tested locally and pushed to `main`. Not deployed yet: Cloudflare isn't connected.
-- **Open until the first deploy:** the site builds on Cloudflare, and the tag workflow finds 1.0.0 in `public/` and adds `v1.0.0`.
+- **Tag workflow checked:** it found 1.0.0 in `public/` and added `v1.0.0` to the pushed commit.
+- **Open until the first deploy:** the site builds on Cloudflare.
 
 ## Next up
 
-- **Owner:** Cloudflare sign-up, connect this repo, first build.
+- **Owner:** the Cloudflare account is made. Change the workers.dev subdomain to a neutral name first (on a phone the setting may be hidden, so try the desktop layout), then connect this repo with the build settings in Decisions and run the first build.
 - **Done when** (the owner's iPhone check on the live site):
   1. The site's address opens the home page showing version 1.0.0, and About and Accessibility open from it.
   2. A made-up address on the site shows the friendly "page not found" page.
